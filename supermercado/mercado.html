@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Filmes Em Cartaz</title>
+			<script type="text/javascript" src="script.js"></script>
+			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
+				
+		</head>
+
+		<body> 
+       <!--Inicio do Projeto-->
+   
+      	<header>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<!--Aqui o Logotipo-->
+						<img src="assets/img/logo.jpg" id="logo">
+						<a style="color: #0359AE ">Supermecados Rede @ Dinho</a>
+					</div>
+					
+					<div class="col-md-8">
+						<!--Aqui o MENU-->
+						<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-primary">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item ">
+										<a class="nav-link" href="#">
+											Loja Virtual
+										</a>
+									</li>
+									<li class="nav-item ">
+										<a class="nav-link" href="#">
+											Institucional
+										</a>
+									</li>
+									<li class="nav-item ">
+										<a class="nav-link" href="#">
+											Contatos
+										</a>
+									</li>
+								</ul>
+								<!--Botão de Busca-->
+								<form class="form-inline">
+									<input class="form-control mr-1" type="search" placeholder="Buscar">
+									<button class="btn btn-dark" type="submit">OK</button>
+								</form>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<!-- Fim do Cabeçalho -->
+
+		    <!--carousel-->
+		    <div class="container">
+		    	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		    		<!--Indicador mudança da foto-->
+		    		<ol class="carousel-indicators">
+		    			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+		    			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+		    			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		    			<li da ta-target="#carouselExampleControls" data-slide-to="3"></li>
+		    			<li data-target="#carouselExampleControls" data-slide-to="4"></li>
+		    		</ol>
+		    		<!--Slides-->
+		    		<div class="carousel-inner">
+		    			<div class="carousel-item active">
+		    				<img class="d-block w-100 img-fluid" src="assets/img/supermercado7.jpg" alt="First slide" >
+		    			</div>
+		    			<div class="carousel-item ">
+		    				<img class="d-block w-100 img-fluid" src="assets/img/supermercado2.jpg" alt="Second slide" >
+		    			</div>
+		    			<div class="carousel-item ">
+		    				<img class="d-block w-100 img-fluid" src="assets/img/supermercado9.jpg" alt="Third slide" >
+		    			</div>
+		    			<div class="carousel-item ">
+		    				<img class="d-block w-100 img-fluid" src="assets/img/supermercado4.jpg" alt="Four slide" >
+		    			</div>
+		    			<div class="carousel-item ">
+		    				<img class="d-block w-100 img-fluid" src="assets/img/supermercado5.jpg" alt="Five slide">
+		    			</div>
+		    		</div>
+		    		<!--ícone para mudar fotos na base da foto-->
+		    		<a  class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    			<span class="sr-only">Anterior</span>
+		    		</a>
+		    		<a  class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    			<span class="sr-only">Próximo</span>
+		    		</a>
+		    	</div>
+		    </div>
+		    <br>
+		    <!-- Fim do Carousel -->
+
+		    <!--Cards-->
+		    <div class="card-group">
+  <div class="card">
+    <img class="card-img-top img-fluid" src=".../100px180/" alt="Imagem de capa do card" >
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Atualizados 3 minutos atrás</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid" src=".../100px180/" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Atualizados 3 minutos atrás</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid" src=".../100px180/" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Atualizados 3 minutos atrás</small>
+    </div>
+
+
+		   
+
+       </header>
+
+
+     
+        
+
+	
+             <!--javascripts-->
+			<script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+			<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+			<script type="text/javascript" src="script.js"></script>
+
+			 <script type="text/javascript">
+			 	$(function () {
+                  $('[data-toggle="popover"]').popover();
+                  $('[data-toggle="popover"]').tooltip();
+                });
+			 </script>
+
+
+		</body>
+</html>

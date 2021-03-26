@@ -7,3 +7,5 @@ Alterando o README
 Novamente alterando
 
 Mudando texto 9
+
+Alteração feita no master.

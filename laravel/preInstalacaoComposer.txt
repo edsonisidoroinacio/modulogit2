@@ -1,0 +1,38 @@
+-No prompt de comando fazer com que o php seja 
+reconhecido como comando interno;
+
+-Abrir a pasta Xampp, ou Mamp ou Wamp;
+-Localizar o arquivo binario do php;
+  C/Xampp/php/php.exe
+-Copia a url da pasta. C:\xampp\php;
+-Vai para o prompt;
+-Cola a url no terminal;
+-Acrescenta  \php -v na url
+     C:\xampp\php\php -v
+
+-Adicionar a url do php nas váriaveis de ambiente do Windows;
+-Abrir painel de controle;
+-Ir em Sistema e Segurança;
+-Abrir Sistema;
+-Abrir Configurações avançadas do Sistema;
+-Clicar na aba avançado da caixa de diálogo;
+-Ir em Variaveis de Ambiente;
+-Em Variaveis de Sistema localizar o path;
+-Entrando no path clicar em editar;
+-Clicar em NOVO e colar o endereço da URL da pasta do php;
+-Dar ok nas caixas de diálogo.
+-Testar no prompt de comando se reconheceu o php,
+digitando php -v. Se aparecer a versão é porque está certo.
+
+
+Instalar Composer
+-Ir no site composer;
+-Clicar em Download;
+-Clicar em  "Composer-Setup.exe" para Windows no inicio a página;
+-Aguardar abaixar;
+-Após instalar o composer, fecha o prompt de comando;
+-Abrir o terminal de comando;
+-Verificar a versão do php se aparece:
+      php -v
+-Verificar se aparece a versão do composer:
+      composer --version.

@@ -1,0 +1,18 @@
+Requisitos para rodar o Lavarel:
+           PHP 7.2 acima;
+           Extensões:
+                     bcmath;
+                     ctype;
+                     *json;
+                     *mbstring;
+                     openssl;
+                     *pdo;
+                     tokenizer;
+                     xml.
+* = As Principais.
+
+Software: -Wamp;
+          -Xampp;
+          -Mamp;
+
+          -Homestead (vagrant + VirtualBox e/ou WMware).

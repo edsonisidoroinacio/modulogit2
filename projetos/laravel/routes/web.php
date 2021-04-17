@@ -20,3 +20,11 @@ Route::get('/noticia/{slug}', function($slug) {
 Route::get('/noticia/{slug}/comentario/{id}', function($slug, $id) {
     echo "MOSTRANDO O COMENTÁRIO".$id."DA NOTICIA".$slug;
 });
+
+Route::get('/user/{name}', function($name){
+    echo "Mostrando usuário de NOME".$name;
+})->where('name' , '[a-z]+');
+
+Route::get('/user/{id}', function($id){
+    echo "Mostrando usuário ID".$id;
+});
